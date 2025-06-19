@@ -1,6 +1,16 @@
-<<<<<<< HEAD
-/build/
-=======
-#/.metadata/
-/.metadata/
->>>>>>> 66c0340923e39722f17b7946e982ed50f16cf930
+# Ignore compiled classes
+*.class
+
+# Ignore IntelliJ or Eclipse project files
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+
+# Ignore build folders
+bin/
+target/
+
+# Logs
+*.log
